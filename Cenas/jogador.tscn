@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://otdl021vi1yw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m6yer"]
+radius = 38.0789
+
+[node name="Jogador" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(55, 96)
+shape = SubResource("CircleShape2D_m6yer")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
